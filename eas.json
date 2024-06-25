@@ -9,19 +9,12 @@
         "simulator": true
       }
     },
-     "test_debug": {
-      "android": {
-        "gradleCommand": ":app:assembleDebug :app:assembleAndroidTest -DtestBuildType=debug",
-        "withoutCredentials": true
-      },
+    "test-dev-build": {
+      "developmentClient": true,
+      "distribution": "internal",
       "ios": {
-        "buildConfiguration": "Debug",
         "simulator": true
-      },
-      "env": {
-        "EXPO_USE_UPDATES": "1"
-      },
-      "channel": "test_debug"
-    } 
+      }
+    }
   }
 }

@@ -1,4 +1,4 @@
-package com.vsoareslp.eastestsexample
+package com.freire712.eastestsexample
 
 import android.os.Build
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.vsoareslp.eastestsexample
+package com.freire712.eastestsexample
 
 import android.app.Application
 import android.content.res.Configuration
