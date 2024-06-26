@@ -1,4 +1,4 @@
-package com.freire712.eastestsexample;
+package com.vsoareslp.eastestsexample;
     
 import com.wix.detox.Detox;
 import com.wix.detox.config.DetoxConfig;
@@ -22,7 +22,7 @@ public class DetoxTest {
         DetoxConfig detoxConfig = new DetoxConfig();
         detoxConfig.idlePolicyConfig.masterTimeoutSec = 90;
         detoxConfig.idlePolicyConfig.idleResourceTimeoutSec = 60;
-        detoxConfig.rnContextLoadTimeoutSec = (com.freire712.eastestsexample.BuildConfig.DEBUG ? 180 : 60);
+        detoxConfig.rnContextLoadTimeoutSec = (com.vsoareslp.eastestsexample.BuildConfig.DEBUG ? 180 : 60);
 
         Detox.runTests(mActivityRule, detoxConfig);
     }

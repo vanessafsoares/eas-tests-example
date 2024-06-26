@@ -13,14 +13,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.freire712.eastestsexample"
+      "bundleIdentifier": "com.vsoareslp.eastestsexample"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.freire712.eastestsexample"
+      "package": "com.vsoareslp.eastestsexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,7 +30,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "d00afe5e-ef13-49c4-aecb-4de8ff58cb7a"
+        "projectId": "6983855f-ea1a-4367-b5af-7dd10e8a0c2f"
       }
     }
   }

@@ -83,12 +83,12 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.freire712.eastestsexample'
+    namespace 'com.vsoareslp.eastestsexample'
     defaultConfig {
         // detox-plugin-default-config
         testBuildType System.getProperty('testBuildType', 'debug')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        applicationId 'com.freire712.eastestsexample'
+        applicationId 'com.vsoareslp.eastestsexample'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

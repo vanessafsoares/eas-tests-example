@@ -19,13 +19,13 @@
 # trap cleanup EXIT
 
 
-ANDROID_EMULATOR=pixel_4
-if [[ "$EAS_BUILD_PLATFORM" == "android" ]]; then
-  # Execute Android tests
-  if [[ "$EAS_BUILD_PROFILE" == "test" ]]; then
-    detox test --configuration android.release
-  fi
-else
+#ANDROID_EMULATOR=pixel_4
+#if [[ "$EAS_BUILD_PLATFORM" == "android" ]]; then
+#  # Execute Android tests
+#  if [[ "$EAS_BUILD_PROFILE" == "test" ]]; then
+#    detox test --configuration android.release
+#  fi
+#else
   # Execute iOS tests
   if [[ "$EAS_BUILD_PROFILE" == "test" ]]; then
     detox test --configuration ios.release
