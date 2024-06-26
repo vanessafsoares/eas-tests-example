@@ -26,7 +26,7 @@ module.exports = {
     'ios.release': {
       type: 'ios.app',
       build:
-        'xcodebuild -workspace ios/eastestsexample.xcworkspace -scheme eastestsexample -configuration Debug -sdk iphonesimulator -arch x86_64 -derivedDataPath ios/build',
+        'xcodebuild -workspace ios/eastestsexample.xcworkspace -scheme eastestsexample -configuration Release -sdk iphonesimulator -arch x86_64 -derivedDataPath ios/build',
       binaryPath: './build/eastestsexample.app',
     },
     'android.debug': {
