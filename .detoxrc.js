@@ -21,13 +21,13 @@ module.exports = {
       type: 'ios.app',
       build:
         'xcodebuild -workspace ios/eastestsexample.xcworkspace -scheme eastestsexample -configuration Debug -sdk iphonesimulator -arch x86_64 -derivedDataPath ios/build',
-      binaryPath: 'ios/build/Build/Products/Debug-iphonesimulator/eastestsexample.app',
+      binaryPath: './build/eastestsexample.app',
     },
     'ios.release': {
       type: 'ios.app',
       build:
         'xcodebuild -workspace ios/eastestsexample.xcworkspace -scheme eastestsexample -configuration Release -sdk iphonesimulator -arch x86_64 -derivedDataPath ios/build',
-      binaryPath: 'ios/build/Build/Products/Release-iphonesimulator/eastestsexample.app',
+      binaryPath: './build/eastestsexample.app',
     },
     'android.debug': {
       type: 'android.apk',
@@ -46,13 +46,13 @@ module.exports = {
     simulator: {
       type: 'ios.simulator',
       device: {
-        type: 'iPhone 14',
+        type: 'iPhone 15 Pro Max',
       },
     },
     emulator: {
       type: 'android.emulator',
       device: {
-        avdName: 'pixel_4',
+        avdName: 'Automated Tests',
       },
     },
   },
